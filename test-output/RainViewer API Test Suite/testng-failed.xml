@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [RainViewer API Test Suite]">
+  <test thread-count="5" name="RAINVIEWER API TEST CASES(failed)">
+    <classes>
+      <class name="com.testcase.GetSatelliteAPITest">
+        <methods>
+          <include name="verifySatelliteContenttype"/>
+          <include name="verifySatelliteresponsexcache"/>
+          <include name="getradardetails"/>
+          <include name="verifySatellitestatusmesg"/>
+          <include name="verifySatelliteResponsecode"/>
+        </methods>
+      </class> <!-- com.testcase.GetSatelliteAPITest -->
+    </classes>
+  </test> <!-- RAINVIEWER API TEST CASES(failed) -->
+</suite> <!-- Failed suite [RainViewer API Test Suite] -->

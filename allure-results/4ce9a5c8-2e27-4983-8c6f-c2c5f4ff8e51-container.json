@@ -1,0 +1,1 @@
+{"uuid":"4ce9a5c8-2e27-4983-8c6f-c2c5f4ff8e51","name":"com.testcase.GetWeatherDetailsTest","children":["15c29808-3e0b-45ca-b294-b530ab669430"],"befores":[{"name":"setup","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1626513290682,"stop":1626513290706}],"afters":[],"links":[],"start":1626513290654,"stop":1626513294849}

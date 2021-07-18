@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="RainViewer API Test Suite">
+
+  <test thread-count="1" name="RAINVIEWER API TEST CASES">
+  <classes>
+  <class name="com.testcase.GetWeatherDetailsTest"/>
+  <class name="com.testcase.GetRadarFutureDataAPITest"/>
+  <class name="com.testcase.GetRadarPastDataAPITest"/>
+  <class name="com.testcase.GetSatelliteAPITest"/>
+  
+  </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

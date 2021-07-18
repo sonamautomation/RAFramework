@@ -1,0 +1,911 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-RainViewer_API_Test_Suite">
+              <span class="suite-name border-passed">RainViewer API Test Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-RainViewer_API_Test_Suite">
+                    <span>C:\Users\sonam\eclipse-workspace\restassured\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-RainViewer_API_Test_Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-RainViewer_API_Test_Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-RainViewer_API_Test_Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-RainViewer_API_Test_Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-RainViewer_API_Test_Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-RainViewer_API_Test_Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">32 methods,   32 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-RainViewer_API_Test_Suite" class="hide-methods passed suite-RainViewer_API_Test_Suite"> (hide)</a> <!-- hide-methods passed suite-RainViewer_API_Test_Suite -->
+                      <a href="#" panel-name="suite-RainViewer_API_Test_Suite" class="show-methods passed suite-RainViewer_API_Test_Suite"> (show)</a> <!-- show-methods passed suite-RainViewer_API_Test_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-RainViewer_API_Test_Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RainViewer_API_Test_Suite" title="com.testcase.GetRadarPastDataAPITest" hash-for-method="getRadarpastresponsetime">getRadarpastresponsetime</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RainViewer_API_Test_Suite" title="com.testcase.GetRadarFutureDataAPITest" hash-for-method="getRadarresponsetime">getRadarresponsetime</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RainViewer_API_Test_Suite" title="com.testcase.GetSatelliteAPITest" hash-for-method="getSatelliteresponsetime">getSatelliteresponsetime</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RainViewer_API_Test_Suite" title="com.testcase.GetWeatherDetailsTest" hash-for-method="verifyCookie">verifyCookie</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RainViewer_API_Test_Suite" title="com.testcase.GetRadarFutureDataAPITest" hash-for-method="verifyRadarContenttype">verifyRadarContenttype</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RainViewer_API_Test_Suite" title="com.testcase.GetRadarPastDataAPITest" hash-for-method="verifyRadarPastContenttype">verifyRadarPastContenttype</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RainViewer_API_Test_Suite" title="com.testcase.GetRadarPastDataAPITest" hash-for-method="verifyRadarPastResponsecode">verifyRadarPastResponsecode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RainViewer_API_Test_Suite" title="com.testcase.GetRadarFutureDataAPITest" hash-for-method="verifyRadarResponsecode">verifyRadarResponsecode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RainViewer_API_Test_Suite" title="com.testcase.GetRadarFutureDataAPITest" hash-for-method="verifyRadarresponsexcache">verifyRadarresponsexcache</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RainViewer_API_Test_Suite" title="com.testcase.GetWeatherDetailsTest" hash-for-method="verifyResponseBody">verifyResponseBody</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RainViewer_API_Test_Suite" title="com.testcase.GetWeatherDetailsTest" hash-for-method="verifyResponseContenttype">verifyResponseContenttype</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RainViewer_API_Test_Suite" title="com.testcase.GetWeatherDetailsTest" hash-for-method="verifyResponseServer">verifyResponseServer</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RainViewer_API_Test_Suite" title="com.testcase.GetWeatherDetailsTest" hash-for-method="verifyResponseVersion">verifyResponseVersion</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RainViewer_API_Test_Suite" title="com.testcase.GetSatelliteAPITest" hash-for-method="verifySatelliteContenttype">verifySatelliteContenttype</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RainViewer_API_Test_Suite" title="com.testcase.GetSatelliteAPITest" hash-for-method="verifySatelliteResponsecode">verifySatelliteResponsecode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RainViewer_API_Test_Suite" title="com.testcase.GetSatelliteAPITest" hash-for-method="verifySatelliteresponsecookie">verifySatelliteresponsecookie</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RainViewer_API_Test_Suite" title="com.testcase.GetSatelliteAPITest" hash-for-method="verifySatelliteresponseserver">verifySatelliteresponseserver</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RainViewer_API_Test_Suite" title="com.testcase.GetSatelliteAPITest" hash-for-method="verifySatelliteresponsexcache">verifySatelliteresponsexcache</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RainViewer_API_Test_Suite" title="com.testcase.GetSatelliteAPITest" hash-for-method="verifySatellitestatusmesg">verifySatellitestatusmesg</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RainViewer_API_Test_Suite" title="com.testcase.GetWeatherDetailsTest" hash-for-method="verifyStatuscode">verifyStatuscode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RainViewer_API_Test_Suite" title="com.testcase.GetWeatherDetailsTest" hash-for-method="verifycontentencoding">verifycontentencoding</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RainViewer_API_Test_Suite" title="com.testcase.GetRadarPastDataAPITest" hash-for-method="verifyradarpastresponsebody">verifyradarpastresponsebody</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RainViewer_API_Test_Suite" title="com.testcase.GetRadarPastDataAPITest" hash-for-method="verifyradarpastresponsecookie">verifyradarpastresponsecookie</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RainViewer_API_Test_Suite" title="com.testcase.GetRadarPastDataAPITest" hash-for-method="verifyradarpastresponseserver">verifyradarpastresponseserver</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RainViewer_API_Test_Suite" title="com.testcase.GetRadarPastDataAPITest" hash-for-method="verifyradarpaststatusmesg">verifyradarpaststatusmesg</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RainViewer_API_Test_Suite" title="com.testcase.GetRadarFutureDataAPITest" hash-for-method="verifyradarresponsebody">verifyradarresponsebody</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RainViewer_API_Test_Suite" title="com.testcase.GetRadarFutureDataAPITest" hash-for-method="verifyradarresponsecookie">verifyradarresponsecookie</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RainViewer_API_Test_Suite" title="com.testcase.GetRadarFutureDataAPITest" hash-for-method="verifyradarresponseserver">verifyradarresponseserver</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RainViewer_API_Test_Suite" title="com.testcase.GetRadarFutureDataAPITest" hash-for-method="verifyradarstatusmesg">verifyradarstatusmesg</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RainViewer_API_Test_Suite" title="com.testcase.GetWeatherDetailsTest" hash-for-method="verifyresponsemsg">verifyresponsemsg</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RainViewer_API_Test_Suite" title="com.testcase.GetWeatherDetailsTest" hash-for-method="verifyresponsenowcast">verifyresponsenowcast</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RainViewer_API_Test_Suite" title="com.testcase.GetWeatherDetailsTest" hash-for-method="verifyresponsetime">verifyresponsetime</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-RainViewer_API_Test_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-RainViewer_API_Test_Suite" class="panel RainViewer_API_Test_Suite">
+          <div class="suite-RainViewer_API_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.testcase.GetRadarPastDataAPITest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getRadarpastresponsetime">
+                  </a> <!-- getRadarpastresponsetime -->
+                  <span class="method-name">getRadarpastresponsetime</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRadarPastContenttype">
+                  </a> <!-- verifyRadarPastContenttype -->
+                  <span class="method-name">verifyRadarPastContenttype</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRadarPastResponsecode">
+                  </a> <!-- verifyRadarPastResponsecode -->
+                  <span class="method-name">verifyRadarPastResponsecode</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyradarpastresponsebody">
+                  </a> <!-- verifyradarpastresponsebody -->
+                  <span class="method-name">verifyradarpastresponsebody</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyradarpastresponsecookie">
+                  </a> <!-- verifyradarpastresponsecookie -->
+                  <span class="method-name">verifyradarpastresponsecookie</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyradarpastresponseserver">
+                  </a> <!-- verifyradarpastresponseserver -->
+                  <span class="method-name">verifyradarpastresponseserver</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyradarpaststatusmesg">
+                  </a> <!-- verifyradarpaststatusmesg -->
+                  <span class="method-name">verifyradarpaststatusmesg</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-RainViewer_API_Test_Suite-class-passed -->
+          <div class="suite-RainViewer_API_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.testcase.GetSatelliteAPITest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getSatelliteresponsetime">
+                  </a> <!-- getSatelliteresponsetime -->
+                  <span class="method-name">getSatelliteresponsetime</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySatelliteContenttype">
+                  </a> <!-- verifySatelliteContenttype -->
+                  <span class="method-name">verifySatelliteContenttype</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySatelliteResponsecode">
+                  </a> <!-- verifySatelliteResponsecode -->
+                  <span class="method-name">verifySatelliteResponsecode</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySatelliteresponsecookie">
+                  </a> <!-- verifySatelliteresponsecookie -->
+                  <span class="method-name">verifySatelliteresponsecookie</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySatelliteresponseserver">
+                  </a> <!-- verifySatelliteresponseserver -->
+                  <span class="method-name">verifySatelliteresponseserver</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySatelliteresponsexcache">
+                  </a> <!-- verifySatelliteresponsexcache -->
+                  <span class="method-name">verifySatelliteresponsexcache</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySatellitestatusmesg">
+                  </a> <!-- verifySatellitestatusmesg -->
+                  <span class="method-name">verifySatellitestatusmesg</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-RainViewer_API_Test_Suite-class-passed -->
+          <div class="suite-RainViewer_API_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.testcase.GetRadarFutureDataAPITest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getRadarresponsetime">
+                  </a> <!-- getRadarresponsetime -->
+                  <span class="method-name">getRadarresponsetime</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRadarContenttype">
+                  </a> <!-- verifyRadarContenttype -->
+                  <span class="method-name">verifyRadarContenttype</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRadarResponsecode">
+                  </a> <!-- verifyRadarResponsecode -->
+                  <span class="method-name">verifyRadarResponsecode</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRadarresponsexcache">
+                  </a> <!-- verifyRadarresponsexcache -->
+                  <span class="method-name">verifyRadarresponsexcache</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyradarresponsebody">
+                  </a> <!-- verifyradarresponsebody -->
+                  <span class="method-name">verifyradarresponsebody</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyradarresponsecookie">
+                  </a> <!-- verifyradarresponsecookie -->
+                  <span class="method-name">verifyradarresponsecookie</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyradarresponseserver">
+                  </a> <!-- verifyradarresponseserver -->
+                  <span class="method-name">verifyradarresponseserver</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyradarstatusmesg">
+                  </a> <!-- verifyradarstatusmesg -->
+                  <span class="method-name">verifyradarstatusmesg</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-RainViewer_API_Test_Suite-class-passed -->
+          <div class="suite-RainViewer_API_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.testcase.GetWeatherDetailsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCookie">
+                  </a> <!-- verifyCookie -->
+                  <span class="method-name">verifyCookie</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyResponseBody">
+                  </a> <!-- verifyResponseBody -->
+                  <span class="method-name">verifyResponseBody</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyResponseContenttype">
+                  </a> <!-- verifyResponseContenttype -->
+                  <span class="method-name">verifyResponseContenttype</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyResponseServer">
+                  </a> <!-- verifyResponseServer -->
+                  <span class="method-name">verifyResponseServer</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyResponseVersion">
+                  </a> <!-- verifyResponseVersion -->
+                  <span class="method-name">verifyResponseVersion</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyStatuscode">
+                  </a> <!-- verifyStatuscode -->
+                  <span class="method-name">verifyStatuscode</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifycontentencoding">
+                  </a> <!-- verifycontentencoding -->
+                  <span class="method-name">verifycontentencoding</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyresponsemsg">
+                  </a> <!-- verifyresponsemsg -->
+                  <span class="method-name">verifyresponsemsg</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyresponsenowcast">
+                  </a> <!-- verifyresponsenowcast -->
+                  <span class="method-name">verifyresponsenowcast</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyresponsetime">
+                  </a> <!-- verifyresponsetime -->
+                  <span class="method-name">verifyresponsetime</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-RainViewer_API_Test_Suite-class-passed -->
+        </div> <!-- panel RainViewer_API_Test_Suite -->
+        <div panel-name="test-xml-RainViewer_API_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\sonam\eclipse-workspace\restassured\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;RainViewer API Test Suite&quot;&gt;
+  &lt;test thread-count=&quot;1&quot; name=&quot;RAINVIEWER API TEST CASES&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.testcase.GetWeatherDetailsTest&quot;/&gt;
+      &lt;class name=&quot;com.testcase.GetRadarFutureDataAPITest&quot;/&gt;
+      &lt;class name=&quot;com.testcase.GetRadarPastDataAPITest&quot;/&gt;
+      &lt;class name=&quot;com.testcase.GetSatelliteAPITest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- RAINVIEWER API TEST CASES --&gt;
+&lt;/suite&gt; &lt;!-- RainViewer API Test Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-RainViewer_API_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for RainViewer API Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">RAINVIEWER API TEST CASES (4 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-RainViewer_API_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for RainViewer API Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-RainViewer_API_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for RainViewer API Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_RainViewer_API_Test_Suite');
+function tableData_RainViewer_API_Test_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(32);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verifyradarpastresponsebody')
+data.setCell(0, 2, 'com.testcase.GetRadarPastDataAPITest')
+data.setCell(0, 3, 60800);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyResponseVersion')
+data.setCell(1, 2, 'com.testcase.GetWeatherDetailsTest')
+data.setCell(1, 3, 592);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyresponsenowcast')
+data.setCell(2, 2, 'com.testcase.GetWeatherDetailsTest')
+data.setCell(2, 3, 589);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyResponseBody')
+data.setCell(3, 2, 'com.testcase.GetWeatherDetailsTest')
+data.setCell(3, 3, 544);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyCookie')
+data.setCell(4, 2, 'com.testcase.GetWeatherDetailsTest')
+data.setCell(4, 3, 39);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifyRadarContenttype')
+data.setCell(5, 2, 'com.testcase.GetRadarFutureDataAPITest')
+data.setCell(5, 3, 17);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'getRadarpastresponsetime')
+data.setCell(6, 2, 'com.testcase.GetRadarPastDataAPITest')
+data.setCell(6, 3, 12);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifyradarresponsebody')
+data.setCell(7, 2, 'com.testcase.GetRadarFutureDataAPITest')
+data.setCell(7, 3, 11);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verifyresponsetime')
+data.setCell(8, 2, 'com.testcase.GetWeatherDetailsTest')
+data.setCell(8, 3, 9);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verifyRadarPastContenttype')
+data.setCell(9, 2, 'com.testcase.GetRadarPastDataAPITest')
+data.setCell(9, 3, 9);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'getRadarresponsetime')
+data.setCell(10, 2, 'com.testcase.GetRadarFutureDataAPITest')
+data.setCell(10, 3, 9);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'verifyStatuscode')
+data.setCell(11, 2, 'com.testcase.GetWeatherDetailsTest')
+data.setCell(11, 3, 8);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'verifycontentencoding')
+data.setCell(12, 2, 'com.testcase.GetWeatherDetailsTest')
+data.setCell(12, 3, 7);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'verifyradarpastresponsecookie')
+data.setCell(13, 2, 'com.testcase.GetRadarPastDataAPITest')
+data.setCell(13, 3, 7);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'verifyResponseServer')
+data.setCell(14, 2, 'com.testcase.GetWeatherDetailsTest')
+data.setCell(14, 3, 7);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'verifyRadarPastResponsecode')
+data.setCell(15, 2, 'com.testcase.GetRadarPastDataAPITest')
+data.setCell(15, 3, 6);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'verifyResponseContenttype')
+data.setCell(16, 2, 'com.testcase.GetWeatherDetailsTest')
+data.setCell(16, 3, 6);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'verifyradarpastresponseserver')
+data.setCell(17, 2, 'com.testcase.GetRadarPastDataAPITest')
+data.setCell(17, 3, 6);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'verifyRadarresponsexcache')
+data.setCell(18, 2, 'com.testcase.GetRadarFutureDataAPITest')
+data.setCell(18, 3, 5);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'verifyradarresponseserver')
+data.setCell(19, 2, 'com.testcase.GetRadarFutureDataAPITest')
+data.setCell(19, 3, 5);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'verifyRadarResponsecode')
+data.setCell(20, 2, 'com.testcase.GetRadarFutureDataAPITest')
+data.setCell(20, 3, 5);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'verifyradarresponsecookie')
+data.setCell(21, 2, 'com.testcase.GetRadarFutureDataAPITest')
+data.setCell(21, 3, 5);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'verifyresponsemsg')
+data.setCell(22, 2, 'com.testcase.GetWeatherDetailsTest')
+data.setCell(22, 3, 5);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'verifyradarstatusmesg')
+data.setCell(23, 2, 'com.testcase.GetRadarFutureDataAPITest')
+data.setCell(23, 3, 4);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'getSatelliteresponsetime')
+data.setCell(24, 2, 'com.testcase.GetSatelliteAPITest')
+data.setCell(24, 3, 4);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'verifySatelliteresponsexcache')
+data.setCell(25, 2, 'com.testcase.GetSatelliteAPITest')
+data.setCell(25, 3, 4);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'verifyradarpaststatusmesg')
+data.setCell(26, 2, 'com.testcase.GetRadarPastDataAPITest')
+data.setCell(26, 3, 4);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'verifySatelliteResponsecode')
+data.setCell(27, 2, 'com.testcase.GetSatelliteAPITest')
+data.setCell(27, 3, 3);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'verifySatelliteresponseserver')
+data.setCell(28, 2, 'com.testcase.GetSatelliteAPITest')
+data.setCell(28, 3, 3);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'verifySatellitestatusmesg')
+data.setCell(29, 2, 'com.testcase.GetSatelliteAPITest')
+data.setCell(29, 3, 3);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'verifySatelliteContenttype')
+data.setCell(30, 2, 'com.testcase.GetSatelliteAPITest')
+data.setCell(30, 3, 3);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'verifySatelliteresponsecookie')
+data.setCell(31, 2, 'com.testcase.GetSatelliteAPITest')
+data.setCell(31, 3, 3);
+window.suiteTableData['RainViewer_API_Test_Suite']= { tableData: data, tableDiv: 'times-div-RainViewer_API_Test_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-RainViewer_API_Test_Suite">
+              </div> <!-- times-div-RainViewer_API_Test_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-RainViewer_API_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for RainViewer API Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-RainViewer_API_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">1 ignored method</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.testcase.GetSatelliteAPITest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">verifySatelliteresponsebody</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-RainViewer_API_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testcase.GetWeatherDetailsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">getweatherdetails</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">verifyCookie</span>
+                <span class="method-start">4778 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyResponseBody</span>
+                <span class="method-start">4828 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyResponseContenttype</span>
+                <span class="method-start">5383 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyResponseServer</span>
+                <span class="method-start">5397 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyResponseVersion</span>
+                <span class="method-start">5408 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyStatuscode</span>
+                <span class="method-start">6009 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifycontentencoding</span>
+                <span class="method-start">6023 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyresponsemsg</span>
+                <span class="method-start">6035 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyresponsenowcast</span>
+                <span class="method-start">6042 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyresponsetime</span>
+                <span class="method-start">6647 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testcase.GetRadarFutureDataAPITest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">getradardetails</span>
+                <span class="method-start">6671 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">getRadarresponsetime</span>
+                <span class="method-start">7245 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyRadarContenttype</span>
+                <span class="method-start">7267 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyRadarResponsecode</span>
+                <span class="method-start">7297 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyRadarresponsexcache</span>
+                <span class="method-start">7305 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyradarresponsebody</span>
+                <span class="method-start">7314 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyradarresponsecookie</span>
+                <span class="method-start">7339 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyradarresponseserver</span>
+                <span class="method-start">7349 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyradarstatusmesg</span>
+                <span class="method-start">7358 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testcase.GetRadarPastDataAPITest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">getradardetails</span>
+                <span class="method-start">7369 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">getRadarpastresponsetime</span>
+                <span class="method-start">8012 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyRadarPastContenttype</span>
+                <span class="method-start">8035 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyRadarPastResponsecode</span>
+                <span class="method-start">8051 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyradarpastresponsebody</span>
+                <span class="method-start">8062 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyradarpastresponsecookie</span>
+                <span class="method-start">68867 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyradarpastresponseserver</span>
+                <span class="method-start">68879 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyradarpaststatusmesg</span>
+                <span class="method-start">68889 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testcase.GetSatelliteAPITest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">getradardetails</span>
+                <span class="method-start">68899 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">getSatelliteresponsetime</span>
+                <span class="method-start">69556 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifySatelliteContenttype</span>
+                <span class="method-start">69567 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifySatelliteResponsecode</span>
+                <span class="method-start">69573 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifySatelliteresponsecookie</span>
+                <span class="method-start">69579 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifySatelliteresponseserver</span>
+                <span class="method-start">69585 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifySatelliteresponsexcache</span>
+                <span class="method-start">69591 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifySatellitestatusmesg</span>
+                <span class="method-start">69597 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
