@@ -64,7 +64,7 @@ public class GetWeatherDetailsTest extends TestBase{
 		System.out.println("The actual time is "+acttime);
 		String actpath= weatherdetail.getRadar().getNowcast().get(0).getPath();
 		System.out.println("The actual path is "+actpath);
-		Assert.assertNotNull(actpath);	 
+		Assert.assertNotNull(acttime);	 
 		Assert.assertNotNull(actpath);
 	}
 
@@ -115,7 +115,7 @@ public class GetWeatherDetailsTest extends TestBase{
    {
 	   long responsetime=responsebody.getTime();
 	   System.out.println("The response time is " +responsetime);
-	   Assert.assertNotNull(responsetime);
+	   Assert.assertTrue(responsetime>50);
 	
    }
    

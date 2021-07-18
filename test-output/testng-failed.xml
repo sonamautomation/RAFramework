@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test thread-count="5" name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [RainViewer API Test Suite]">
+  <test thread-count="5" name="RAINVIEWER API TEST CASES(failed)">
     <classes>
-      <class name="com.testcase.GetRadarPastDataAPITest">
+      <class name="com.testcase.GetRadarFutureDataAPITest">
         <methods>
-          <include name="verifyRadaPastrresponsexcache"/>
+          <include name="verifyRadarresponsexcache"/>
+          <include name="verifyRadarResponsecode"/>
+          <include name="verifyRadarContenttype"/>
+          <include name="verifyradarstatusmesg"/>
           <include name="getradardetails"/>
         </methods>
-      </class> <!-- com.testcase.GetRadarPastDataAPITest -->
+      </class> <!-- com.testcase.GetRadarFutureDataAPITest -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- RAINVIEWER API TEST CASES(failed) -->
+</suite> <!-- Failed suite [RainViewer API Test Suite] -->

@@ -3,15 +3,15 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [RainViewer API Test Suite]">
   <test thread-count="5" name="RAINVIEWER API TEST CASES(failed)">
     <classes>
-      <class name="com.testcase.GetSatelliteAPITest">
+      <class name="com.testcase.GetRadarFutureDataAPITest">
         <methods>
-          <include name="verifySatelliteContenttype"/>
-          <include name="verifySatelliteresponsexcache"/>
+          <include name="verifyRadarresponsexcache"/>
+          <include name="verifyRadarResponsecode"/>
+          <include name="verifyRadarContenttype"/>
+          <include name="verifyradarstatusmesg"/>
           <include name="getradardetails"/>
-          <include name="verifySatellitestatusmesg"/>
-          <include name="verifySatelliteResponsecode"/>
         </methods>
-      </class> <!-- com.testcase.GetSatelliteAPITest -->
+      </class> <!-- com.testcase.GetRadarFutureDataAPITest -->
     </classes>
   </test> <!-- RAINVIEWER API TEST CASES(failed) -->
 </suite> <!-- Failed suite [RainViewer API Test Suite] -->

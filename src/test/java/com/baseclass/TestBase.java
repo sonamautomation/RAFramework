@@ -22,7 +22,7 @@ public class TestBase {
 	public String expencoding="gzip";
 	public String actpath;
 	public int acttime;
-	public String getRadarResource="/v2/radar/nowcast_fba23e0bcd24/512/2/2/1/1/1_1.png";
+	public String getRadarResource="/v2/radar/nowcast_f0e5468eb357/512/2/2/1/1/1_1.png";
 	public String expheaderradarcontenttype="image/png";
 	public String xcache="X-Cache";
 	public String expcache="rv_server";
