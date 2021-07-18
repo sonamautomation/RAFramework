@@ -18,19 +18,19 @@ import java.util.Map;
 
 public class GetWeatherDetailsTest extends TestBase{
 	
-	public com.pojo.WeatherDetails weatherdetail= new WeatherDetails();
+	
 	
 	@BeforeClass
 	public void getweatherdetails()
 	{
-		//logger.info("Started TC001_Get_WeatherDetails ");
+		
 		RestAssured.baseURI = TestBase.baseUri;
 		req=new RequestSpecBuilder().setBaseUri(RestAssured.baseURI).
 			     build();
 		httprequest= given().spec(req);
 	    response=new ResponseSpecBuilder().build();
 	    responsebody=httprequest.request(Method.GET,""+getResource+"");
-	    com.pojo.WeatherDetails weatherdetail = new com.pojo.WeatherDetails();
+	    weatherdetail = new com.pojo.WeatherDetails();
 	    weatherdetail=httprequest.when().get(""+getResource+"").then().spec(response).extract().as(com.pojo.WeatherDetails.class);
 	
 	   
@@ -39,7 +39,7 @@ public class GetWeatherDetailsTest extends TestBase{
 	@Test(enabled=true)
 	public void verifyResponseBody()
 	{
-		//logger.info("Verify response body");
+		
 		weatherdetail=httprequest.when().get(""+getResource+"").then().spec(response).extract().as(com.pojo.WeatherDetails.class);
 		String acthost= weatherdetail.getHost();
 		System.out.println("The actual host is "+acthost);

@@ -1,0 +1,6 @@
+com\pojo\nowcast.class
+com\pojo\infrared.class
+com\pojo\past.class
+com\pojo\radar.class
+com\pojo\satellite.class
+com\pojo\WeatherDetails.class

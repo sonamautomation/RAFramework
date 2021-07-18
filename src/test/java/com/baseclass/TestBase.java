@@ -1,12 +1,4 @@
 package com.baseclass;
-
-import org.apache.log4j.Level;
-import org.apache.log4j.Logger;
-import org.apache.log4j.PropertyConfigurator;
-import org.testng.annotations.BeforeClass;
-
-import com.pojo.WeatherDetails;
-
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import io.restassured.specification.ResponseSpecification;
@@ -17,7 +9,6 @@ public class TestBase {
 	public static RequestSpecification req;
 	public static ResponseSpecification response;
 	public static Response responsebody;
-	public Logger logger;
 	public static String baseUri="https://api.rainviewer.com";
 	public String getResource="/public/weather-maps.json";
 	public String exphost="https://tilecache.rainviewer.com";
@@ -38,14 +29,7 @@ public class TestBase {
 	public int expradarstatus=200;
 	public String getSatelliteResource="v2/satellite/3747daadb50f/256/2/35.71/-70.87/0/0_0.png";
 	public String getradarpastdataresource="/v2/radar/1626571800/8000/2/0_1.png";
-	
-/*	@BeforeClass
-	public void setup()
-	{
-	logger=Logger.getLogger(TestBase.class.getName());
-	PropertyConfigurator.configure("C:\\Users\\sonam\\eclipse-workspace\\restassured\\log4j.properties");
-	logger.setLevel(Level.DEBUG);
+	public com.pojo.WeatherDetails weatherdetail;
 
-}*/
 
 }

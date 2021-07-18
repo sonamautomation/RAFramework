@@ -1,163 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="1" total="33" passed="32">
+<testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
   <reporter-output>
   </reporter-output>
-  <suite name="RainViewer API Test Suite" duration-ms="69867" started-at="2021-07-18T04:06:54Z" finished-at="2021-07-18T04:08:04Z">
+  <suite name="Default suite" duration-ms="7146" started-at="2021-07-18T06:45:32Z" finished-at="2021-07-18T06:45:39Z">
     <groups>
     </groups>
-    <test name="RAINVIEWER API TEST CASES" duration-ms="69867" started-at="2021-07-18T04:06:54Z" finished-at="2021-07-18T04:08:04Z">
-      <class name="com.testcase.GetRadarPastDataAPITest">
-        <test-method status="PASS" signature="getradardetails()[pri:0, instance:com.testcase.GetRadarPastDataAPITest@7692d9cc]" name="getradardetails" is-config="true" duration-ms="641" started-at="2021-07-18T04:07:02Z" finished-at="2021-07-18T04:07:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getradardetails -->
-        <test-method status="PASS" signature="getRadarpastresponsetime()[pri:0, instance:com.testcase.GetRadarPastDataAPITest@7692d9cc]" name="getRadarpastresponsetime" duration-ms="12" started-at="2021-07-18T04:07:02Z" finished-at="2021-07-18T04:07:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getRadarpastresponsetime -->
-        <test-method status="PASS" signature="verifyRadarPastContenttype()[pri:0, instance:com.testcase.GetRadarPastDataAPITest@7692d9cc]" name="verifyRadarPastContenttype" duration-ms="9" started-at="2021-07-18T04:07:02Z" finished-at="2021-07-18T04:07:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyRadarPastContenttype -->
-        <test-method status="PASS" signature="verifyRadarPastResponsecode()[pri:0, instance:com.testcase.GetRadarPastDataAPITest@7692d9cc]" name="verifyRadarPastResponsecode" duration-ms="6" started-at="2021-07-18T04:07:02Z" finished-at="2021-07-18T04:07:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyRadarPastResponsecode -->
-        <test-method status="PASS" signature="verifyradarpastresponsebody()[pri:0, instance:com.testcase.GetRadarPastDataAPITest@7692d9cc]" name="verifyradarpastresponsebody" duration-ms="60800" started-at="2021-07-18T04:07:02Z" finished-at="2021-07-18T04:08:03Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyradarpastresponsebody -->
-        <test-method status="PASS" signature="verifyradarpastresponsecookie()[pri:0, instance:com.testcase.GetRadarPastDataAPITest@7692d9cc]" name="verifyradarpastresponsecookie" duration-ms="7" started-at="2021-07-18T04:08:03Z" finished-at="2021-07-18T04:08:03Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyradarpastresponsecookie -->
-        <test-method status="PASS" signature="verifyradarpastresponseserver()[pri:0, instance:com.testcase.GetRadarPastDataAPITest@7692d9cc]" name="verifyradarpastresponseserver" duration-ms="6" started-at="2021-07-18T04:08:03Z" finished-at="2021-07-18T04:08:03Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyradarpastresponseserver -->
-        <test-method status="PASS" signature="verifyradarpaststatusmesg()[pri:0, instance:com.testcase.GetRadarPastDataAPITest@7692d9cc]" name="verifyradarpaststatusmesg" duration-ms="4" started-at="2021-07-18T04:08:03Z" finished-at="2021-07-18T04:08:03Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyradarpaststatusmesg -->
-      </class> <!-- com.testcase.GetRadarPastDataAPITest -->
-      <class name="com.testcase.GetSatelliteAPITest">
-        <test-method status="PASS" signature="getradardetails()[pri:0, instance:com.testcase.GetSatelliteAPITest@75f32542]" name="getradardetails" is-config="true" duration-ms="657" started-at="2021-07-18T04:08:03Z" finished-at="2021-07-18T04:08:04Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getradardetails -->
-        <test-method status="PASS" signature="getSatelliteresponsetime()[pri:0, instance:com.testcase.GetSatelliteAPITest@75f32542]" name="getSatelliteresponsetime" duration-ms="4" started-at="2021-07-18T04:08:04Z" finished-at="2021-07-18T04:08:04Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getSatelliteresponsetime -->
-        <test-method status="PASS" signature="verifySatelliteContenttype()[pri:0, instance:com.testcase.GetSatelliteAPITest@75f32542]" name="verifySatelliteContenttype" duration-ms="3" started-at="2021-07-18T04:08:04Z" finished-at="2021-07-18T04:08:04Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifySatelliteContenttype -->
-        <test-method status="PASS" signature="verifySatelliteResponsecode()[pri:0, instance:com.testcase.GetSatelliteAPITest@75f32542]" name="verifySatelliteResponsecode" duration-ms="3" started-at="2021-07-18T04:08:04Z" finished-at="2021-07-18T04:08:04Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifySatelliteResponsecode -->
-        <test-method status="PASS" signature="verifySatelliteresponsecookie()[pri:0, instance:com.testcase.GetSatelliteAPITest@75f32542]" name="verifySatelliteresponsecookie" duration-ms="3" started-at="2021-07-18T04:08:04Z" finished-at="2021-07-18T04:08:04Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifySatelliteresponsecookie -->
-        <test-method status="PASS" signature="verifySatelliteresponseserver()[pri:0, instance:com.testcase.GetSatelliteAPITest@75f32542]" name="verifySatelliteresponseserver" duration-ms="3" started-at="2021-07-18T04:08:04Z" finished-at="2021-07-18T04:08:04Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifySatelliteresponseserver -->
-        <test-method status="PASS" signature="verifySatelliteresponsexcache()[pri:0, instance:com.testcase.GetSatelliteAPITest@75f32542]" name="verifySatelliteresponsexcache" duration-ms="4" started-at="2021-07-18T04:08:04Z" finished-at="2021-07-18T04:08:04Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifySatelliteresponsexcache -->
-        <test-method status="PASS" signature="verifySatellitestatusmesg()[pri:0, instance:com.testcase.GetSatelliteAPITest@75f32542]" name="verifySatellitestatusmesg" duration-ms="3" started-at="2021-07-18T04:08:04Z" finished-at="2021-07-18T04:08:04Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifySatellitestatusmesg -->
-      </class> <!-- com.testcase.GetSatelliteAPITest -->
+    <test name="Default test" duration-ms="7146" started-at="2021-07-18T06:45:32Z" finished-at="2021-07-18T06:45:39Z">
       <class name="com.testcase.GetWeatherDetailsTest">
-        <test-method status="PASS" signature="getweatherdetails()[pri:0, instance:com.testcase.GetWeatherDetailsTest@6b19b79]" name="getweatherdetails" is-config="true" duration-ms="4765" started-at="2021-07-18T04:06:54Z" finished-at="2021-07-18T04:06:59Z">
+        <test-method status="PASS" signature="getweatherdetails()[pri:0, instance:com.testcase.GetWeatherDetailsTest@1e730495]" name="getweatherdetails" is-config="true" duration-ms="4973" started-at="2021-07-18T06:45:32Z" finished-at="2021-07-18T06:45:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getweatherdetails -->
-        <test-method status="PASS" signature="verifyCookie()[pri:0, instance:com.testcase.GetWeatherDetailsTest@6b19b79]" name="verifyCookie" duration-ms="39" started-at="2021-07-18T04:06:59Z" finished-at="2021-07-18T04:06:59Z">
+        <test-method status="PASS" signature="verifyCookie()[pri:0, instance:com.testcase.GetWeatherDetailsTest@1e730495]" name="verifyCookie" duration-ms="152" started-at="2021-07-18T06:45:37Z" finished-at="2021-07-18T06:45:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyCookie -->
-        <test-method status="PASS" signature="verifyResponseBody()[pri:0, instance:com.testcase.GetWeatherDetailsTest@6b19b79]" name="verifyResponseBody" duration-ms="544" started-at="2021-07-18T04:06:59Z" finished-at="2021-07-18T04:07:00Z">
+        <test-method status="PASS" signature="verifyResponseBody()[pri:0, instance:com.testcase.GetWeatherDetailsTest@1e730495]" name="verifyResponseBody" duration-ms="561" started-at="2021-07-18T06:45:37Z" finished-at="2021-07-18T06:45:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyResponseBody -->
-        <test-method status="PASS" signature="verifyResponseContenttype()[pri:0, instance:com.testcase.GetWeatherDetailsTest@6b19b79]" name="verifyResponseContenttype" duration-ms="6" started-at="2021-07-18T04:07:00Z" finished-at="2021-07-18T04:07:00Z">
+        <test-method status="PASS" signature="verifyResponseContenttype()[pri:0, instance:com.testcase.GetWeatherDetailsTest@1e730495]" name="verifyResponseContenttype" duration-ms="9" started-at="2021-07-18T06:45:38Z" finished-at="2021-07-18T06:45:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyResponseContenttype -->
-        <test-method status="PASS" signature="verifyResponseServer()[pri:0, instance:com.testcase.GetWeatherDetailsTest@6b19b79]" name="verifyResponseServer" duration-ms="7" started-at="2021-07-18T04:07:00Z" finished-at="2021-07-18T04:07:00Z">
+        <test-method status="PASS" signature="verifyResponseServer()[pri:0, instance:com.testcase.GetWeatherDetailsTest@1e730495]" name="verifyResponseServer" duration-ms="12" started-at="2021-07-18T06:45:38Z" finished-at="2021-07-18T06:45:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyResponseServer -->
-        <test-method status="PASS" signature="verifyResponseVersion()[pri:0, instance:com.testcase.GetWeatherDetailsTest@6b19b79]" name="verifyResponseVersion" duration-ms="592" started-at="2021-07-18T04:07:00Z" finished-at="2021-07-18T04:07:00Z">
+        <test-method status="PASS" signature="verifyResponseVersion()[pri:0, instance:com.testcase.GetWeatherDetailsTest@1e730495]" name="verifyResponseVersion" duration-ms="553" started-at="2021-07-18T06:45:38Z" finished-at="2021-07-18T06:45:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyResponseVersion -->
-        <test-method status="PASS" signature="verifyStatuscode()[pri:0, instance:com.testcase.GetWeatherDetailsTest@6b19b79]" name="verifyStatuscode" duration-ms="8" started-at="2021-07-18T04:07:00Z" finished-at="2021-07-18T04:07:00Z">
+        <test-method status="PASS" signature="verifyStatuscode()[pri:0, instance:com.testcase.GetWeatherDetailsTest@1e730495]" name="verifyStatuscode" duration-ms="8" started-at="2021-07-18T06:45:38Z" finished-at="2021-07-18T06:45:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyStatuscode -->
-        <test-method status="PASS" signature="verifycontentencoding()[pri:0, instance:com.testcase.GetWeatherDetailsTest@6b19b79]" name="verifycontentencoding" duration-ms="7" started-at="2021-07-18T04:07:00Z" finished-at="2021-07-18T04:07:00Z">
+        <test-method status="PASS" signature="verifycontentencoding()[pri:0, instance:com.testcase.GetWeatherDetailsTest@1e730495]" name="verifycontentencoding" duration-ms="6" started-at="2021-07-18T06:45:38Z" finished-at="2021-07-18T06:45:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifycontentencoding -->
-        <test-method status="PASS" signature="verifyresponsemsg()[pri:0, instance:com.testcase.GetWeatherDetailsTest@6b19b79]" name="verifyresponsemsg" duration-ms="5" started-at="2021-07-18T04:07:00Z" finished-at="2021-07-18T04:07:00Z">
+        <test-method status="PASS" signature="verifyresponsemsg()[pri:0, instance:com.testcase.GetWeatherDetailsTest@1e730495]" name="verifyresponsemsg" duration-ms="8" started-at="2021-07-18T06:45:38Z" finished-at="2021-07-18T06:45:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyresponsemsg -->
-        <test-method status="PASS" signature="verifyresponsenowcast()[pri:0, instance:com.testcase.GetWeatherDetailsTest@6b19b79]" name="verifyresponsenowcast" duration-ms="589" started-at="2021-07-18T04:07:00Z" finished-at="2021-07-18T04:07:01Z">
+        <test-method status="PASS" signature="verifyresponsenowcast()[pri:0, instance:com.testcase.GetWeatherDetailsTest@1e730495]" name="verifyresponsenowcast" duration-ms="554" started-at="2021-07-18T06:45:38Z" finished-at="2021-07-18T06:45:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyresponsenowcast -->
-        <test-method status="PASS" signature="verifyresponsetime()[pri:0, instance:com.testcase.GetWeatherDetailsTest@6b19b79]" name="verifyresponsetime" duration-ms="9" started-at="2021-07-18T04:07:01Z" finished-at="2021-07-18T04:07:01Z">
+        <test-method status="PASS" signature="verifyresponsetime()[pri:0, instance:com.testcase.GetWeatherDetailsTest@1e730495]" name="verifyresponsetime" duration-ms="6" started-at="2021-07-18T06:45:39Z" finished-at="2021-07-18T06:45:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyresponsetime -->
       </class> <!-- com.testcase.GetWeatherDetailsTest -->
-      <class name="com.testcase.GetRadarFutureDataAPITest">
-        <test-method status="PASS" signature="getradardetails()[pri:0, instance:com.testcase.GetRadarFutureDataAPITest@2a32de6c]" name="getradardetails" is-config="true" duration-ms="573" started-at="2021-07-18T04:07:01Z" finished-at="2021-07-18T04:07:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getradardetails -->
-        <test-method status="PASS" signature="getRadarresponsetime()[pri:0, instance:com.testcase.GetRadarFutureDataAPITest@2a32de6c]" name="getRadarresponsetime" duration-ms="9" started-at="2021-07-18T04:07:02Z" finished-at="2021-07-18T04:07:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getRadarresponsetime -->
-        <test-method status="PASS" signature="verifyRadarContenttype()[pri:0, instance:com.testcase.GetRadarFutureDataAPITest@2a32de6c]" name="verifyRadarContenttype" duration-ms="17" started-at="2021-07-18T04:07:02Z" finished-at="2021-07-18T04:07:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyRadarContenttype -->
-        <test-method status="PASS" signature="verifyRadarResponsecode()[pri:0, instance:com.testcase.GetRadarFutureDataAPITest@2a32de6c]" name="verifyRadarResponsecode" duration-ms="5" started-at="2021-07-18T04:07:02Z" finished-at="2021-07-18T04:07:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyRadarResponsecode -->
-        <test-method status="PASS" signature="verifyRadarresponsexcache()[pri:0, instance:com.testcase.GetRadarFutureDataAPITest@2a32de6c]" name="verifyRadarresponsexcache" duration-ms="5" started-at="2021-07-18T04:07:02Z" finished-at="2021-07-18T04:07:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyRadarresponsexcache -->
-        <test-method status="PASS" signature="verifyradarresponsebody()[pri:0, instance:com.testcase.GetRadarFutureDataAPITest@2a32de6c]" name="verifyradarresponsebody" duration-ms="11" started-at="2021-07-18T04:07:02Z" finished-at="2021-07-18T04:07:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyradarresponsebody -->
-        <test-method status="PASS" signature="verifyradarresponsecookie()[pri:0, instance:com.testcase.GetRadarFutureDataAPITest@2a32de6c]" name="verifyradarresponsecookie" duration-ms="5" started-at="2021-07-18T04:07:02Z" finished-at="2021-07-18T04:07:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyradarresponsecookie -->
-        <test-method status="PASS" signature="verifyradarresponseserver()[pri:0, instance:com.testcase.GetRadarFutureDataAPITest@2a32de6c]" name="verifyradarresponseserver" duration-ms="5" started-at="2021-07-18T04:07:02Z" finished-at="2021-07-18T04:07:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyradarresponseserver -->
-        <test-method status="PASS" signature="verifyradarstatusmesg()[pri:0, instance:com.testcase.GetRadarFutureDataAPITest@2a32de6c]" name="verifyradarstatusmesg" duration-ms="4" started-at="2021-07-18T04:07:02Z" finished-at="2021-07-18T04:07:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyradarstatusmesg -->
-      </class> <!-- com.testcase.GetRadarFutureDataAPITest -->
-    </test> <!-- RAINVIEWER API TEST CASES -->
-  </suite> <!-- RainViewer API Test Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

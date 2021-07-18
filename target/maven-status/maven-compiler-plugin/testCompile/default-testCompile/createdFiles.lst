@@ -1,0 +1,5 @@
+com\baseclass\TestBase.class
+com\testcase\GetRadarFutureDataAPITest.class
+com\testcase\GetRadarPastDataAPITest.class
+com\testcase\GetSatelliteAPITest.class
+com\testcase\GetWeatherDetailsTest.class
